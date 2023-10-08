@@ -1,6 +1,6 @@
-package dev.emanoel.springboot2.repository;
+package dev.emanoel.springboot.repository;
 
-import dev.emanoel.springboot2.domain.Film;
+import dev.emanoel.springboot.domain.Film;
 
 import java.util.List;
 

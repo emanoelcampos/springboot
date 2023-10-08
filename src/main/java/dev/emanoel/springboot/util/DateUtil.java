@@ -1,4 +1,4 @@
-package dev.emanoel.springboot2.util;
+package dev.emanoel.springboot.util;
 
 import org.springframework.stereotype.Component;
 

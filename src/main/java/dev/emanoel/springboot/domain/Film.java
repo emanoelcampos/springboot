@@ -1,4 +1,4 @@
-package dev.emanoel.springboot2.domain;
+package dev.emanoel.springboot.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package dev.emanoel.springboot2.service;
+package dev.emanoel.springboot.service;
 
-import dev.emanoel.springboot2.domain.Film;
+import dev.emanoel.springboot.domain.Film;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;

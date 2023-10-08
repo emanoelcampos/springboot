@@ -1,8 +1,8 @@
-package dev.emanoel.springboot2.controller;
+package dev.emanoel.springboot.controller;
 
-import dev.emanoel.springboot2.domain.Film;
-import dev.emanoel.springboot2.service.FilmService;
-import dev.emanoel.springboot2.util.DateUtil;
+import dev.emanoel.springboot.domain.Film;
+import dev.emanoel.springboot.service.FilmService;
+import dev.emanoel.springboot.util.DateUtil;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
