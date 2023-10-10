@@ -36,4 +36,8 @@ public class FilmService {
         films.add(film);
         return film;
     }
+
+    public void delete(long id) {
+        films.remove(findById(id));
+    }
 }

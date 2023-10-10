@@ -38,4 +38,10 @@ public class FilmController {
     public ResponseEntity<Film> save(@RequestBody Film film) {
         return new ResponseEntity<>(filmService.save(film), HttpStatus.CREATED);
     }
+
+    @GetMapping(path = "/{id}")
+    public ResponseEntity<Void> delete(@PathVariable long id) {
+        filmService.delete(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
 }
