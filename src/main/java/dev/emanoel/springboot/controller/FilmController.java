@@ -39,9 +39,15 @@ public class FilmController {
         return new ResponseEntity<>(filmService.save(film), HttpStatus.CREATED);
     }
 
-    @GetMapping(path = "/{id}")
+    @DeleteMapping(path = "/{id}")
     public ResponseEntity<Void> delete(@PathVariable long id) {
         filmService.delete(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    @PutMapping
+    public ResponseEntity<Void> replace(@RequestBody Film film) {
+        filmService.replace(film);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }

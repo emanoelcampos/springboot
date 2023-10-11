@@ -40,4 +40,9 @@ public class FilmService {
     public void delete(long id) {
         films.remove(findById(id));
     }
+
+    public void replace(Film film) {
+        delete(film.getId());
+        films.add(film);
+    }
 }
