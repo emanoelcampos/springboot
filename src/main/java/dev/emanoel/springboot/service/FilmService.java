@@ -15,7 +15,7 @@ public class FilmService {
     private static List<Film> films;
 
     static {
-        films = new ArrayList<>(List.of(new Film(1L,"Truman Show"), new Film(2L,"The Dark Knight")));
+        films = new ArrayList<>(List.of(new Film(1L,"Truman Show"), new Film(2L,"The Dark Knight"), new Film(3L,"Dunkirk"), new Film(4L,"Tenet")));
     }
 
     //private final FilmRepository filmRepository;
